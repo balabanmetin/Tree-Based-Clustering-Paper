@@ -1,0 +1,98 @@
+[clustalw2]
+args = 
+path = /home/umai/repository/pasta/bin/clustalw2
+
+[commandline]
+aligned = False
+auto = False
+datatype = protein
+input = initial.fas
+job = pastaDefault
+keepalignmenttemps = True
+keeptemp = True
+multilocus = False
+raxml_search_after = False
+temporaries = pasta-Default-temp
+two_phase = False
+untrusted = False
+
+[fakealigner]
+path = /home/umai/repository/pasta/bin/fakealigner
+
+[faketree]
+path = /home/umai/repository/pasta/bin/faketree
+
+[fasttree]
+args = 
+model = -wag -gamma -fastest
+options = 
+path = /home/umai/repository/pasta/bin/fasttree
+
+[hmmeralign]
+path = /home/umai/repository/pasta/bin/hmmeralign
+
+[mafft]
+args = 
+path = /home/umai/repository/pasta/bin/mafft
+
+[muscle]
+args = 
+path = /home/umai/repository/pasta/bin/muscle
+
+[opal]
+args = 
+path = /home/umai/repository/pasta/bin/opal.jar
+
+[padaligner]
+path = /home/umai/repository/pasta/bin/padaligner
+
+[prank]
+args = 
+path = /home/umai/repository/pasta/bin/prank
+
+[probalign]
+args = 
+path = /home/umai/repository/pasta/bin/probalign
+
+[probcons]
+args = 
+path = /home/umai/repository/pasta/bin/probcons
+
+[randtree]
+path = /home/umai/repository/pasta/bin/randtree
+
+[raxml]
+args = 
+model = 
+path = /home/umai/repository/pasta/bin/raxml
+
+[sate]
+after_blind_iter_term_limit = -1
+after_blind_iter_without_imp_limit = -1
+after_blind_time_term_limit = -1.0
+after_blind_time_without_imp_limit = -1.0
+aligner = mafft
+blind_after_iter_without_imp = -1
+blind_after_time_without_imp = -1.0
+blind_after_total_iter = 0
+blind_after_total_time = -1.0
+blind_mode_is_final = True
+break_strategy = centroid
+build_mst = False
+iter_limit = 1
+iter_without_imp_limit = -1
+mask_gappy_sites = 12
+max_mem_mb = 1024
+max_subproblem_frac = 0.0
+max_subproblem_size = 200
+max_subtree_diameter = 1.3
+merger = opal
+min_subproblem_size = 0
+move_to_blind_on_worse_score = True
+num_cpus = 6
+return_final_tree_and_alignment = True
+start_tree_search_from_current = True
+time_limit = -1.0
+time_without_imp_limit = -1.0
+tree_estimator = fasttree
+
