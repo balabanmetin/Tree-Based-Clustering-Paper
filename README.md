@@ -19,5 +19,5 @@ Datasets
 
 * HIV dataset
 
-* MSA dataset: Including RNASim and Homfam Dataset, which is also available at [https://sites.google.com/eng.ucsd.edu/datasets/alignment/pastaupp](https://sites.google.com/eng.ucsd.edu/datasets/alignment/pastaupp).
+* PASTA datasets: Including RNASim and Homfam Dataset, which is also available at [https://sites.google.com/eng.ucsd.edu/datasets/alignment/pastaupp](https://sites.google.com/eng.ucsd.edu/datasets/alignment/pastaupp).
 
