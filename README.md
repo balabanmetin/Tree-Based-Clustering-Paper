@@ -5,7 +5,7 @@
 Summary
 ------------------------------------
 
-This repository contains data & script used in analysis of these data presented in the publication: 
+This repository contains data & script used in experiments presented in the publication: 
 
 * Balaban, Metin, Niema Moshiri, Uyen Mai, and Siavash Mirarab. “TreeCluster : Clustering Biological Sequences 
 Using Phylogenetic Trees.” BioRxiv, 2019, 591388. doi:10.1101/591388.
