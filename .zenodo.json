@@ -1,0 +1,34 @@
+{
+    "description": "This repository containts data and script used in the paper 'TreeCluster: clustering biological sequences using phylogenetic trees'",
+    "license": "cc-by",
+    "keywords": [
+        "Clustering",
+				"Phylogenetics",
+				"OTU Clustering",
+				"Phylogenetic Epidemiology"
+    ],
+    "upload_type": "dataset",
+    "creators": [
+        {
+            "affiliation": "University of California San Diego",
+            "name": "Metin Balaban"
+        },
+        {
+            "affiliation": "University of California San Diego",
+            "name": "Niema Moshiri"
+        },
+        {
+            "affiliation": "University of California San Diego",
+            "name": "Uyen Mai"
+        },
+        {
+            "affiliation": "University of California San Diego",
+            "name": "Xingfan Jia"
+        },
+        {
+            "affiliation": "University of California San Diego",
+            "name": "Siavash Mirarab"
+        }
+    ],
+    "access_right": "open"
+}
